@@ -6,7 +6,9 @@
     <style>
         .qr-container {
             position: relative;
-            display: inline-block;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
         }
         .qr-logo {
             position: absolute;
@@ -27,14 +29,10 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <img src="logo1.png" alt="Logo" class="logo1">
-    </div>
-</nav>
+
 <div class="col-md-3"></div>
 <div class="col-md-6 well">
-    <h3 class="text-primary">PHP - Simple QR Code Generator with Logo</h3>
+    <h3 class="text-primary text-center">QR Code Generator</h3> 
     <hr style="border-top:1px dotted #ccc;"/>
     <div class="col-md-2"></div>
     <div class="col-md-8">
